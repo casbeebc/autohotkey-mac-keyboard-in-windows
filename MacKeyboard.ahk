@@ -49,6 +49,8 @@ SendMode Input
 #w::SendInput ^{w}
 #n::SendInput ^{n}
 
+; Redo
+#+z::SendInput ^+{z}
 
 ; Close windows (command + q to Alt + F4)
 #q::Send !{F4}
